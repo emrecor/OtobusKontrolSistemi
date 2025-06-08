@@ -1,5 +1,3 @@
-Elbette! Aşağıda doğrudan `README.md` dosyanıza kopyalayıp yapıştırabileceğiniz, tüm başlıklar ve açıklamalar Markdown formatında düzgün şekilde yazılmış haliyle yer almaktadır:
-
 ````markdown
 # 🚌 Otobüs Yönetim Sistemi
 
