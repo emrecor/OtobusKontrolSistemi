@@ -73,3 +73,32 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 ## 📂 Proje Yapısı
 
 Proje, nesne yönelimli programlama (OOP) prensiplerine uygun olarak modüler bir yapıda tasarlanmıştır.
+
+OtobusKontrolSistemi/
+├── .venv/                  # Sanal ortam klasörü
+├── app/
+│   ├── assets/
+│   │   └── bus.png         # Uygulama ikonu
+│   ├── init.py
+│   ├── classes.py          # Ana sınıfların tanımı (Isletme, Otobus, Sefer vb.)
+│   ├── main.py             # PyQt5 arayüzü ve ana uygulama mantığı
+│   └── utils.py            # Yardımcı fonksiyonlar (loglama, tablo ayarları)
+│
+├── .gitignore              # Git tarafından takip edilmeyecek dosyalar
+├── requirements.txt        # Proje bağımlılıkları
+└── README.md               # Proje tanıtım dosyası
+
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınız projeyi daha iyi hale getirecektir! Lütfen bir "pull request" açmaktan veya "issue" oluşturmaktan çekinmeyin.
+
+1.  Projeyi **Fork** edin.
+2.  Yeni bir **Branch** oluşturun (`git checkout -b ozellik/YeniOzellik`).
+3.  Değişikliklerinizi **Commit** edin (`git commit -m 'Yeni bir özellik eklendi'`).
+4.  Oluşturduğunuz **Branch**'i **Push** edin (`git push origin ozellik/YeniOzellik`).
+5.  Bir **Pull Request** açın.
+
+## 📝 Lisans
+
+Bu proje MIT Lisansı ile lisanslanmıştır.
