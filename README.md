@@ -1,4 +1,3 @@
-```markdown
 # 🚌 Otobüs Yönetim Sistemi
 
 Bu proje, Python ve PyQt5 kütüphanesi kullanılarak geliştirilmiş, otobüs firmaları için kapsamlı bir masaüstü yönetim uygulamasıdır. Uygulama, işletme, otobüs, sefer, yolcu ve bilet yönetimi gibi kritik operasyonların kolayca takip edilmesini sağlar.
@@ -103,4 +102,3 @@ Katkılarınız projeyi daha iyi hale getirecektir! Lütfen bir "pull request" a
 ## 📝 Lisans
 
 Bu proje MIT Lisansı ile lisanslanmıştır.
-```
