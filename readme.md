@@ -64,6 +64,7 @@ Uygulamayı Çalıştırın
 Bash
 
 python main.py
+...
 📂 Proje Yapısı
 Proje, nesne yönelimli programlama (OOP) prensiplerine uygun olarak modüler bir yapıda tasarlanmıştır.
 
