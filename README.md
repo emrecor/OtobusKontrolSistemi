@@ -1,82 +1,103 @@
+Elbette! Aşağıda doğrudan `README.md` dosyanıza kopyalayıp yapıştırabileceğiniz, tüm başlıklar ve açıklamalar Markdown formatında düzgün şekilde yazılmış haliyle yer almaktadır:
+
+````markdown
 # 🚌 Otobüs Yönetim Sistemi
 
-Bu proje, Python ve PyQt5 kütüphanesi kullanılarak geliştirilmiş, otobüs firmaları için kapsamlı bir masaüstü yönetim uygulamasıdır. Uygulama, işletme, otobüs, sefer, yolcu ve bilet yönetimi gibi kritik operasyonların kolayca takip edilmesini sağlar.
+Bu proje, **Python** ve **PyQt5** kullanılarak geliştirilmiş, otobüs firmalarının operasyonel süreçlerini dijital ortamda kolayca yönetmesini sağlayan masaüstü uygulamasıdır. Uygulama, işletme, otobüs, sefer, yolcu ve bilet işlemlerini kapsayan kapsamlı bir kontrol paneli sunar.
 
-## ✨ Temel Özellikler
+---
 
--   **Çoklu Firma Desteği**: Uygulama başlangıcında farklı işletmeler seçilebilir veya yeni işletmeler oluşturulabilir.
--   **İşletme Paneli**: İşletme bilgileri (adres, vergi no vb.) güncellenebilir. Toplam otobüs, sefer ve yolcu gibi istatistikler anlık olarak takip edilebilir.
--   **Otobüs Filosu Yönetimi**:
-    -   Yeni otobüs ekleme, mevcut otobüs bilgilerini (marka, model, kapasite) güncelleme ve silme işlemleri.
-    -   Otobüslerin durumunu (Garajda, Seferde, Bakımda vb.) yönetme.
--   **Sefer ve Güzergah Planlama**:
-    -   Detaylı sefer bilgileri (kalkış-varış noktası, zamanı, güzergah) ile yeni seferler oluşturma.
-    -   Seferlere uygun durumdaki otobüsleri atama.
--   **Yolcu Yönetimi**:
-    -   Yolcuların kişisel bilgilerini (TC Kimlik No, iletişim bilgileri) kaydetme, güncelleme ve silme.
--   **Bilet Satış ve Yönetimi**:
-    -   Mevcut seferler için yolculara bilet kesme.
-    -   Bilet detaylarını (koltuk no, ücret, PNR kodu, ödeme durumu) yönetme.
--   **Modern ve Kullanıcı Dostu Arayüz**:
-    -   Sekmeli yapı sayesinde modüller arası kolay geçiş.
-    -   `qdarktheme` kütüphanesi ile şık bir karanlık tema desteği.
+## ✨ Özellikler
+
+- **🔹 Çoklu Firma Desteği**  
+  Farklı işletmeler arasında geçiş yapılabilir, yeni işletmeler sisteme kolayca eklenebilir.
+
+- **🏢 İşletme Yönetimi**  
+  - Firma bilgileri (adres, vergi numarası vb.) güncellenebilir.  
+  - Otobüs, sefer ve yolcu istatistikleri anlık görüntülenebilir.
+
+- **🚌 Otobüs Filosu Yönetimi**  
+  - Yeni otobüs ekleme, düzenleme ve silme işlemleri.  
+  - Durum takibi (Garajda, Seferde, Bakımda).
+
+- **📍 Sefer ve Güzergah Planlama**  
+  - Kalkış/varış noktaları ve saatleriyle detaylı sefer planlama.  
+  - Müsait otobüslerin seferlere atanması.
+
+- **🧍‍♂️ Yolcu Yönetimi**  
+  - Yolcu bilgilerini (TC Kimlik No, iletişim) kaydetme, düzenleme, silme.
+
+- **🎫 Bilet Satış ve Takibi**  
+  - Seferlere özel bilet kesimi.  
+  - Koltuk no, ücret, PNR kodu ve ödeme durumu takibi.
+
+- **🖥️ Modern Arayüz**  
+  - Sekmeli tasarım ile modüller arası hızlı geçiş.  
+  - `qdarktheme` ile şık ve modern karanlık tema desteği.
+
+---
 
 ## 🛠️ Kullanılan Teknolojiler
 
--   **Python 3**: Ana programlama dili.
--   **PyQt5**: Masaüstü uygulaması arayüzü için kullanılan kütüphane.
--   **qdarktheme**: Modern bir karanlık tema sağlamak için kullanılan kütüphane.
+| Teknoloji     | Açıklama                              |
+|---------------|----------------------------------------|
+| Python 3      | Ana programlama dili                   |
+| PyQt5         | GUI (grafik kullanıcı arayüzü) için    |
+| qdarktheme    | Karanlık tema desteği                  |
 
-## 🚀 Kurulum ve Çalıştırma
+---
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
+## 🚀 Kurulum Talimatları
 
 ### Ön Gereksinimler
 
--   [Python 3.8+](https://www.python.org/downloads/)
--   [Git](https://git-scm.com/downloads)
+- Python 3.8+  
+- Git
 
-### Adım Adım Kurulum
+### Kurulum Adımları
 
-1.  **Projeyi Klonlayın**
-    ```bash
-    git clone [https://github.com/emrecor/OtobusKontrolSistemi.git](https://github.com/emrecor/OtobusKontrolSistemi.git)
-    cd OtobusKontrolSistemi
-    ```
+1. **Projeyi Klonlayın**
 
-2.  **Sanal Ortam Oluşturun ve Aktif Edin** (Önerilir)
-    ```bash
-    # Windows
-    python -m venv .venv
-    .\.venv\Scripts\activate
+```bash
+git clone https://github.com/emrecor/OtobusKontrolSistemi.git
+cd OtobusKontrolSistemi
+````
 
-    # macOS / Linux
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
+2. **Sanal Ortam Oluşturun (Önerilir)**
 
-3.  **Gerekli Kütüphaneleri Yükleyin**
-    Proje ana dizininde aşağıdaki komutu çalıştırarak `requirements.txt` dosyasındaki tüm bağımlılıkları yükleyin.
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *Eğer `requirements.txt` dosyanız yoksa, aşağıdaki komutla gerekli kütüphaneleri manuel olarak yükleyebilirsiniz:*
-    ```bash
-    pip install PyQt5 qdarktheme
-    ```
+```bash
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
 
-4.  **Uygulamayı Çalıştırın**
-    ```bash
-    python main.py
-    ```
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-## **📂 Proje Yapısı**
+3. **Bağımlılıkları Yükleyin**
 
+```bash
+pip install -r requirements.txt
+```
 
+> Eğer `requirements.txt` mevcut değilse:
 
-Proje, nesne yönelimli programlama (OOP) prensiplerine uygun olarak modüler bir yapıda tasarlanmıştır.
+```bash
+pip install PyQt5 qdarktheme
+```
 
+4. **Uygulamayı Başlatın**
 
+```bash
+python app/main.py
+```
+
+---
+
+## 📁 Proje Yapısı
+
+```
 OtobusKontrolSistemi/
 ├── .venv/               # Sanal ortam (opsiyonel)
 ├── app/
@@ -89,21 +110,27 @@ OtobusKontrolSistemi/
 ├── requirements.txt     # Bağımlılıklar
 ├── .gitignore
 └── README.md            # Tanıtım dosyası
+```
 
+---
 
+## 🤝 Katkı Sağlama
 
-## **🤝 Katkıda Bulunma**
+Katkılarınızı memnuniyetle kabul ederiz. Yeni özellikler eklemek veya hata düzeltmeleri yapmak için aşağıdaki adımları izleyin:
 
+1. Projeyi **Fork** edin.
+2. Yeni bir **Branch** oluşturun: `git checkout -b ozellik/YeniOzellik`
+3. Değişiklikleri **Commit** edin: `git commit -m 'Yeni özellik eklendi'`
+4. Branch’i **Push** edin: `git push origin ozellik/YeniOzellik`
+5. Bir **Pull Request** açın.
 
-
-Katkılarınız projeyi daha iyi hale getirecektir! Lütfen bir "pull request" açmaktan veya "issue" oluşturmaktan çekinmeyin.
-
-1.  Projeyi **Fork** edin.
-2.  Yeni bir **Branch** oluşturun (`git checkout -b ozellik/YeniOzellik`).
-3.  Değişikliklerinizi **Commit** edin (`git commit -m 'Yeni bir özellik eklendi'`).
-4.  Oluşturduğunuz **Branch**'i **Push** edin (`git push origin ozellik/YeniOzellik`).
-5.  Bir **Pull Request** açın.
+---
 
 ## 📝 Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır.
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
+
+```
+
+Bu içeriği doğrudan `README.md` dosyana yapıştırabilirsin. Dosyayı VS Code veya başka bir metin editörü ile `.md` olarak kaydettiğinde biçimlendirme düzgün görünecektir. Yardımcı olmamı istersen, `.md` dosyasını doğrudan oluşturup sana da sağlayabilirim.
+```
