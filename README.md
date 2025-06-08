@@ -70,26 +70,45 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
     python main.py
     ```
 
-## 📂 Proje Yapısı
+## **📂 Proje Yapısı**
+
+
 
 Proje, nesne yönelimli programlama (OOP) prensiplerine uygun olarak modüler bir yapıda tasarlanmıştır.
 
+
+
 OtobusKontrolSistemi/
-├── .venv/                  # Sanal ortam klasörü
+
+├── .venv/ \# Sanal ortam klasörü
+
 ├── app/
-│   ├── assets/
-│   │   └── bus.png         # Uygulama ikonu
-│   ├── init.py
-│   ├── classes.py          # Ana sınıfların tanımı (Isletme, Otobus, Sefer vb.)
-│   ├── main.py             # PyQt5 arayüzü ve ana uygulama mantığı
-│   └── utils.py            # Yardımcı fonksiyonlar (loglama, tablo ayarları)
+
+│ ├── assets/
+
+│ │ └── bus.png \# Uygulama ikonu
+
+│ ├── \_\_init\_\_.py
+
+│ ├── classes.py \# Ana sınıfların tanımı (Isletme, Otobus, Sefer vb.)
+
+│ ├── main.py \# PyQt5 arayüzü ve ana uygulama mantığı
+
+│ └── utils.py \# Yardımcı fonksiyonlar (loglama, tablo ayarları)
+
 │
-├── .gitignore              # Git tarafından takip edilmeyecek dosyalar
-├── requirements.txt        # Proje bağımlılıkları
-└── README.md               # Proje tanıtım dosyası
+
+├── .gitignore \# Git tarafından takip edilmeyecek dosyalar
+
+├── requirements.txt \# Proje bağımlılıkları
+
+└── README.md \# Proje tanıtım dosyası
 
 
-## 🤝 Katkıda Bulunma
+
+## **🤝 Katkıda Bulunma**
+
+
 
 Katkılarınız projeyi daha iyi hale getirecektir! Lütfen bir "pull request" açmaktan veya "issue" oluşturmaktan çekinmeyin.
 
